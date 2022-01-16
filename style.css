@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444444;
+    padding: 1.4%;
+    border: 2px solid black;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 8px 20px;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+}
+
+a { 
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    width: 100px;
+}
+
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.site_left_img {
+    position: absolute;
+    left: 1%;
+}
+
+article {
+    background-color: #e9e9e5;
+}
+
+.jumbotron{
+    padding:10px;
+    margin: -2px;
+    height:500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+}
+
+.naomi-foto{
+    float:right;
+    width: 350px;
+    margin-right: 450px;
+}
+
+footer {
+    text-align: center;
+    background-color: #423F3E;
+}
+
+.naam {
+    padding-top: 0.2%; 
+    padding-left: 1%; 
+    float: left;
+    margin-top: 0.4%;
+}
+
+.email_logo {
+    /* padding-right: 5%; */
+    float: left;
+    padding-left: 46.5%;
+    margin-top: 0.4%;
+}
+
+.telefoon_logo {
+    /* padding-right: 5%; */
+    float: left;
+    padding-left: 45.5%;
+    margin-top: -0.9%;
+}
+
+.email {
+    padding-top: 0.8%; 
+    padding-left: 0.5%; 
+    float: left;
+    margin-top: -0.6%;
+}
+
+.email a{
+    color: black;
+    font-size: 100%;
+    padding-left: 0.1%;
+}
+
+.blokken h2 {
+    text-align: center;
+    background-color: blue;
+}
+
+#tekst article{
+    color: brown;
+    text-align: left;
+}
+
+#tekst img {  
+    width: 348px;
+    margin: 20px;
+    float: right;
+    
+}
+
+article {
+    margin: 20px;
+}
+
+p a {
+    color: black;
+    background-color: brown;
+}
+
+.insta1{
+    margin-left: 600px;
+    margin-bottom: 200px;
+}
